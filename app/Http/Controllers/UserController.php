@@ -22,7 +22,7 @@ class UserController extends Controller
     {
         $user = User::find($id);
         if ($user) {
-            return view('users.view', compact('user'));
+            return view('view', compact('user'));
         } else {
             return response()->json("No such user ($id)", 404);
         }
