@@ -78,6 +78,10 @@ This command will help migrate the database and populate the database!
 ```
 
 ## Usage
+Specify your static user password in your .env that would be used to identify you
+```bash
+STATIC_USER_PASSWORD=''
+```
 Run the default laravel server
 ```bash
 php artisan serve

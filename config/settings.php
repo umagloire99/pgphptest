@@ -8,5 +8,5 @@
     |
     */
 return [
-    'user_password' => env('STATIC_USER_PASSWORD', 'laravel')
+    'user_password' => env('STATIC_USER_PASSWORD', 'password')
 ];
