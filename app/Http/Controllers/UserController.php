@@ -63,7 +63,7 @@ class UserController extends Controller
             } catch (Exception $exception) {
                 return response()->json('Could not update database: '.$exception->getMessage(), 500);
             }
-            return response()->json('ok');
+            return response()->json('OK');
         } else {
             return response()->json("No such user ($id)", 404);
         }
