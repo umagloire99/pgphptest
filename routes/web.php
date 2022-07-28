@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('user/{id}', [UserController::class, 'show'])->name('users.show');
 
+Route::post('user/update-comments', [UserController::class, 'updateComments'])->name('user.update.comments');
+
